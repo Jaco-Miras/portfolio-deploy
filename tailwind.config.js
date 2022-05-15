@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["Inter", "sans-serif"],
+      Raleway: ["Raleway", "sans-serif"],
     },
     extend: {},
   },

@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full h-screen bg-[#EB5353] flex justify-center items-center p-4">
+    <div
+      name="contact"
+      className="w-full h-screen bg-[#EB5353] flex justify-center items-center p-4"
+    >
       <form
         method="POST"
         action="https://getform.io/f/0e04a135-a9f3-4179-a6c2-6edd0d23ae69"
@@ -37,7 +40,7 @@ const Contact = () => {
           rows="10"
           required
         ></textarea>
-        <button className="text-white border-2 hover:bg-[#383838] hover:border-[#383838] px-4 py-3 my-8 mx-auto flex items-center rounded-md">
+        <button className="text-white border-2 hover:bg-[#36AE7C] hover:border-[#36AE7C] px-4 py-3 my-8 mx-auto flex items-center rounded-md">
           Submit
         </button>
       </form>
