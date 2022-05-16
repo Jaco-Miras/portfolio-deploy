@@ -20,7 +20,7 @@ const Home = () => {
           especially in frontend development.
         </p>
         <div>
-          <button className="text-[#3A3845] group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-[#97C4B8] hover:border-[#97C4B8]">
+          <button className="text-[#3A3845] group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-[#E83A14] hover:border-[#E83A14]">
             <Link to="work" smooth={true} duration={500}>
               View Works
             </Link>
